@@ -1,0 +1,43 @@
+[
+    {
+        "id_input_test_case": 1,
+        "input_test_case_description": "Default run",
+        "inputs": [],
+        "input_prompts": [],
+        "printed_messages": [
+            "Subscription: Music App - Monthly Fee: $10.00",
+            "Annual cost: 120",
+            "Subscription: Music App Premium - Monthly Fee: $10.00 - Extra Services Fee: $50.00",
+            "Annual cost: 170",
+            "Updated Annual cost: 194"
+        ],
+        "invalid_input_prompts": [],
+        "invalid_printed_messages": [],
+        "bools": {},
+        "ints": {},
+        "strings": {},
+        "floats": {},
+        "lists": {},
+        "dicts": {},
+        "Subscription": {
+            "basic": {
+                "__class__": "Subscription",
+                "__attributes__": {
+                    "name": "Music App",
+                    "_Subscription__monthly_fee": 10
+                }
+            }
+        },
+        "PremiumSubscription": {
+            "premium": {
+                "__class__": "PremiumSubscription",
+                "__attributes__": {
+                    "name": "Music App Premium",
+                    "_Subscription__monthly_fee": 12,
+                    "extra_services_fee": 50
+                }
+            }
+        },
+        "example_output": "Subscription: Music App - Monthly Fee: $10.00\nAnnual cost: 120\nSubscription: Music App Premium - Monthly Fee: $10.00 - Extra Services Fee: $50.00\nAnnual cost: 170\nUpdated Annual cost: 194"
+    }
+]
