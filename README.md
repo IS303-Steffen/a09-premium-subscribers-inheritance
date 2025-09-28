@@ -17,8 +17,9 @@ You can write the class names, instance variables, and method names in PascalCas
 - Instance Variables:
   - `name` (string)
     - the name of the subscription (e.g., “Music App”)
-  - `__monthly_fee` (float or int) **(private)**
+  - `monthly_fee` (float or int)
     - the monthly fee in dollars
+    - you MUST make this a private variable (meaning you should add two underscores `__` at the start of the variable name)
 - Methods:
   - `__init__(self, name, monthly_fee)`
     - The constructor / initializer!
@@ -47,11 +48,9 @@ You can write the class names, instance variables, and method names in PascalCas
       - `Subscription: <name> - Monthly Fee: $<fee with 2 decimals> - Extra Services Fee: $<extra services fee with 2 decimals>`
       - If you want an extra optional mini challenge, see if you can write this using `super()` and without repeating the same string data as the original `Subscription` version. Doing this won't get you any extra points though.
 
-> Note: The private variable must use **double underscores** (`__monthly_fee`) so it is name-mangled and cannot be directly accessed from outside the class or in the child without using the getter/setter. Do **not** use a single underscore for this assignment.
+> Note: The private variable must use **double underscores** (`__monthly_fee`) so it is name-mangled and cannot be directly accessed from outside the class or in the child without using the getter/setter.
 
 ## Logical Flow:
-Note: This program won’t store any user input. You’ll hardcode the values provided in the instructions.
-
 ### Part 1: Create the Classes
 - Implement the `Subscription` class exactly as described above.
 - Implement the `PremiumSubscription` class exactly as described above.
