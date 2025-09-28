@@ -1,12 +1,12 @@
-# Pokemon - get_info Method Tests
+# PremiumSubscription - get_annual_cost Method Tests
 
-## Pokemon - get_info Method Test 1
+## PremiumSubscription - get_annual_cost Method Test 1
 
 ### Initial Object Values
 ````
-name: "Bulbasaur" - str
-elemental_type: "Grass" - str
-hit_points: 60 - int
+name: "Music App Premium" - str
+extra_services_fee: 50 - int
+__monthly_fee: 10 - int
 ````
 
 ### Arguments
@@ -16,7 +16,7 @@ No arguments besides 'self'
 
 ### Expected Return Value
 ````
-"Bulbasaur - Type: Grass - Hit Points: 60" - str
+170 - int
 ````
 
 ### Expected Object Update
@@ -24,13 +24,13 @@ No arguments besides 'self'
 Not applicable
 ````
 
-## Pokemon - get_info Method Test 2
+## PremiumSubscription - get_annual_cost Method Test 2
 
 ### Initial Object Values
 ````
-name: "Charmander" - str
-elemental_type: "Fire" - str
-hit_points: 55 - int
+name: "Music App Premium" - str
+extra_services_fee: 50 - int
+__monthly_fee: 10 - int
 ````
 
 ### Arguments
@@ -40,7 +40,7 @@ No arguments besides 'self'
 
 ### Expected Return Value
 ````
-"Charmander - Type: Fire - Hit Points: 55" - str
+194 - int
 ````
 
 ### Expected Object Update

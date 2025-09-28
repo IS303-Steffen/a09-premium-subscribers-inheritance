@@ -1,11 +1,11 @@
 #### Assignment 9
 # Premium Subscribers Inheritance
 
-The purpose of this assignment is to be a short introduction to specifically **inheritance** and **private variables** (`__var`) in Python. Make sure you understand these concepts well in isolation. Your assignment after this will combine literally everything you've learned in class.
+The purpose of this assignment is to be a short introduction to **inheritance** and **private variables** (`__var`) in Python.
 
-You will create two classes: `Subscription` (parent) and `PremiumSubscription` (child). The parent will store a **private** monthly fee and expose it through getter and setter methods. The child will add one extra attribute and **override** one method to change the behavior.
+You will create two classes: `Subscription` (parent) and `PremiumSubscription` (child). The parent will store a **private** monthly fee that you can access through getter and setter methods. The child will add one extra attribute and **override** some methods to change the behavior.
 
-You will put your code in the `a09_premium_subscribers_inheritance.py` file. Do not edit or delete any other files.
+Put your code in the `a09_premium_subscribers_inheritance.py` file. Don't edit or delete any other files.
 
 ## Libraries Required:
 - *(none)*

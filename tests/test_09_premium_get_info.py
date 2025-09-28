@@ -1,4 +1,4 @@
-max_score = 15  # This value is pulled by yml_generator.py to assign a score to this test.
+max_score = 10  # This value is pulled by yml_generator.py to assign a score to this test.
 from conftest import (
     normalize_text,
     load_student_code,
@@ -12,7 +12,7 @@ from conftest import (
     default_module_to_test
 )
 
-def test_08_premium_get_info(current_test_name, input_test_cases, class_test_cases):
+def test_09_premium_get_info(current_test_name, input_test_cases, class_test_cases):
     try:
         rec = pc_get_or_create(current_test_name, max_score)
         # Ensure test_cases is valid and iterable

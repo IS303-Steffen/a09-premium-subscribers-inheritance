@@ -1,5 +1,4 @@
-# tests/test_12_no_direct_private_access.py
-max_score = 1  # This value is pulled by yml_generator.py to assign a score to this test.
+max_score = 5  # This value is pulled by yml_generator.py to assign a score to this test.
 
 import ast
 from conftest import (
@@ -51,7 +50,7 @@ def _find_banned_parent_private_references(source: str):
     return hits
 
 
-def test_12_no_direct_private_access(current_test_name):
+def test_10_no_referencing_mangled_names(current_test_name):
     rec = pc_get_or_create(current_test_name, max_score)
 
     try:
